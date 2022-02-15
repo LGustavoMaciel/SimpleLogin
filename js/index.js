@@ -9,12 +9,12 @@ function togglePassword() {
     eye.style.display = "block";
     eyeSlash.style.display = "none";
     fieldPassword.type = "text";
-    console.log("caiu aq 2");
+    //console.log("caiu aq 2");
   } else {
     eye.style.display = "none";
     eyeSlash.style.display = "block";
     fieldPassword.type = "password";
-    console.log("caiu aq");
+    //console.log("caiu aq");
   }
 }
 

@@ -1,11 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  overflow: hidden;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
 header {
   min-height: 9vh;
   display: flex;
@@ -20,7 +25,7 @@ header h1 {
 
 main {
   width: 100%;
-  min-height: 100vh;
+  height: calc(100% - 9vh);
   background: linear-gradient(#18acfe, #0166e1);
   display: flex;
   justify-content: center;
@@ -30,6 +35,7 @@ main {
 main form {
   margin-top: 2%;
   width: 35%;
+  min-width: 320px;
   height: 75vh;
   background-color: #383c42;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4) inset 0px 4px 4px
