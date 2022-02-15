@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  overflow: hidden;
 }
 header {
   min-height: 9vh;
@@ -84,6 +85,9 @@ main form .password-container i {
 main form .password-container #eye {
   display: none;
 }
+main form .password-container #eye.active {
+  display: block;
+}
 
 main form .password-infos {
   width: 90%;
@@ -161,6 +165,7 @@ main form .links-container aside .google {
 main form .links-container aside .google:hover {
   background-color: #e34133;
   color: #fff;
+  cursor: pointer;
 }
 
 main form .links-container aside .linkedin {
@@ -169,6 +174,7 @@ main form .links-container aside .linkedin {
 main form .links-container aside .linkedin:hover {
   background-color: #0a66c2;
   color: #fff;
+  cursor: pointer;
 }
 main form .links-container aside .github {
   color: black;
@@ -176,6 +182,7 @@ main form .links-container aside .github {
 main form .links-container aside .github:hover {
   background-color: black;
   color: #fff;
+  cursor: pointer;
 }
 
 main form footer {
