@@ -28,15 +28,16 @@
     </header>
 
     <main>
-      <form>
+      <form id="form">
         <section class="inputs-container">
-          <input type="email" placeholder="exaple@email.com" />
+          <input type="email" placeholder="exaple@email.com" name="email" />
           <div class="password-container">
             <input
               type="password"
               id="field-password"
               class="field-password"
               placeholder="********"
+              name="senha"
             />
             <i
               class="fas fa-eye-slash"
@@ -49,7 +50,7 @@
 
         <section class="password-infos">
           <div>
-            <input type="checkbox" />
+            <input type="checkbox" name="lembrarsenha" />
             <span>Lembrar Senha</span>
           </div>
           <a>Esqueci minha senha...</a>

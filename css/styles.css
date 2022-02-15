@@ -26,7 +26,7 @@ header h1 {
 main {
   width: 100%;
   height: calc(100% - 9vh);
-  background: linear-gradient(#18acfe, #0166e1);
+  background: linear-gradient(#fff, #18acfe, #0166e1);
   display: flex;
   justify-content: center;
   box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
