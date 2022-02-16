@@ -36,7 +36,15 @@ document.getElementById("btn-login").addEventListener("click", function (e) {
     })
     .then(function (res) {
       console.log(res, "caui aq");
-      alert(res.status);
+      //alert(res.status);
+      if (res.code === 200) {
+        setTimeout(function () {
+          location.replace("./homepage.html");
+        }, 1000);
+        toastr.success("Bem Vindo !");
+      } else {
+        toastr.error("login invalido");
+      }
     })
     .catch(function (error) {
       console.log(error);
