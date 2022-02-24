@@ -1,67 +1,49 @@
 * {
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
 }
 html,
 body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 header {
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #383c42;
-  padding: 5px 10px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #383c42;
+    padding: 5px 10px;
 }
 header h1 {
-  font-size: 1.5em;
-  color: #fff;
+    font-size: 1.5em;
+    color: #fff;
 }
 header #btn-exit {
-  background-color: #18acfe;
-  width: 45px;
-  height: 20px;
-  border: 0;
-  outline: 0;
-  border-radius: 12px;
-  font-size: 0.6em;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
+    background-color: #18acfe;
+    width: 45px;
+    height: 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 0.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 header #btn-exit:hover {
-  background: #fff;
-  color: #18acfe;
+    background: #fff;
+    color: #18acfe;
 }
 
 main {
-  width: 100%;
+    width: 100%;
 }
-
-main nav {
-  background-color: red !important;
-  width: 95px;
-  position: fixed !important;
-  top: 9vh;
-  left: 0;
-  bottom: 0;
-}
-main nav .container-fluid {
-  top: 9vh;
-}
-
-main nav ul li a {
-  font-weight: 650;
-  transition: 0.3s ease-in-out;
-}
-
-main nav ul li a:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: #18acfe;
+main .card {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
 }
